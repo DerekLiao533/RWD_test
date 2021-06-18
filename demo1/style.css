@@ -1,0 +1,145 @@
+@charset "UTF-8";
+* {
+  position: relative;
+}
+
+.max_width {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  height: 300px;
+  background-color: #27232F;
+}
+.header1 {
+  background-color: #333333;
+}
+.header2 {
+  height: 300px;
+  background-color: #f3f7f7;
+}
+.header .icon {
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.content {
+  font-family: "Noto Sans JP", 微軟正黑體;
+  padding: 50px;
+}
+.content h5 {
+  margin-top: 10px;
+}
+.content .title_hr {
+  border: solid 1px #ffb336;
+  width: 100px;
+}
+.content h1 {
+  font-size: 40px;
+}
+.content h2 {
+  font-size: 30px;
+}
+.content h3 {
+  font-size: 20px;
+}
+.content h1.small_english {
+  font-size: 24px;
+}
+.content h2.small_english {
+  font-size: 16px;
+}
+.content h3.small_english {
+  font-size: 12px;
+}
+.content .small_english {
+  margin-top: -15px;
+}
+.content .button {
+  padding: 5px 25px;
+  display: inline-block;
+  margin-right: 10px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: bold;
+  border: solid 1px white;
+}
+.content .button_blue {
+  background-color: #27232F;
+  color: #f3f7f7;
+  font-weight: 500px;
+}
+.content .button_yellow {
+  background-color: #ffb336;
+}
+.content .color_chip {
+  display: inline-block;
+  margin-right: 25px;
+}
+.content .color_chip .color_block, .content .color_chip .color_tag {
+  display: inline-block;
+  vertical-align: middle;
+}
+.content .color_chip .color_tag {
+  width: 60px;
+}
+.content .color_chip .color_block {
+  width: 35px;
+  height: 35px;
+  border: solid 2px white;
+}
+.content .color_chip .color_block_yellow {
+  background-color: #ffb336;
+}
+.content .color_chip .color_block_blue {
+  background-color: #27232F;
+}
+.content .color_chip .color_block_white {
+  background-color: #f3f7f7;
+}
+.content .color_chip .color_block_gray {
+  background-color: #333333;
+}
+
+.content_gray {
+  background-color: #333333;
+  color: #f3f7f7;
+}
+.content_gray .small_enlish {
+  color: #ffb336;
+}
+.content_gray h1, .content_gray h2, .content_gray h3 {
+  font-weight: 500;
+}
+
+.content_blue {
+  background-color: #27232F;
+  color: #f3f7f7;
+}
+.content_blue .small_enlish {
+  color: #ffb336;
+}
+.content_blue h1, .content_blue h2, .content_blue h3 {
+  font-weight: 500;
+}
+
+.content_white {
+  background-color: #f3f7f7;
+  color: #333333;
+}
+.content_white .small_enlish {
+  color: #ffb336;
+}
+.content_white .button {
+  border-color: #27232F;
+}
