@@ -1,0 +1,141 @@
+@charset "UTF-8";
+* {
+  font-familty: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #eb4d18;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://webstockreview.net/images/clipart-mountain-bitmap-9.png);
+  background-color: rgba(0, 0, 0, 0.85);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 200px 0px;
+}
+header.jumbotron hr {
+  border: solid 1px #eb4d18;
+  max-width: 50px;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background: linear-gradient(to bottom, #ae912d, black);
+}
+section#section_ask .col-sm-7.img {
+  background-image: url(https://www.skipprichard.com/wp-content/uploads/2015/01/iStock_000030876236Small.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+section#section_ask h2 {
+  color: white;
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_history img {
+  width: 100%;
+}
+section#section_history .img_wrap {
+  height: 100px;
+  overflow: hidden;
+}
+
+section#section_goals {
+  background-color: #222;
+  color: white;
+  padding: 0px;
+}
+section#section_goals .col-sm-5 {
+  background-image: url(https://obs.line-scdn.net/0hnifAgrKCMUZbOBxJ5k1OEWFuMiloVCJFPw5gRRhWb3IlD39DZl19c3c4anN-AHYYNQx9Ino4Knd_WHNFYV59/w1200);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  height: 400px;
+}
+section#section_goals .col-sm-5 .cross {
+  position: absolute;
+  left: 23%;
+  top: 30%;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+}
+section#section_goals .col-sm-7 {
+  text-align: center;
+}
+section#section_goals .col-sm-7 i {
+  font-style: 40px;
+}
+section#section_goals .col-sm-12.goals {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+section#section_goals .col-sm-12.goals .col-sm-4 {
+  margin: 0px;
+}
+
+section#section_taiwan img {
+  width: 100%;
+}
+section#section_taiwan i {
+  font-size: 30px;
+}
+section#section_taiwan .items {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(https://webstockreview.net/images/clipart-mountain-bitmap-9.png);
+  background-color: rgba(0, 0, 0, 0.85);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron .container {
+  color: white;
+  padding: 60px 0px;
+}
+footer.jumbotron hr {
+  border: solid 1px #eb4d18;
+  max-width: 50px;
+}
